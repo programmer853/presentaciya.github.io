@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaksonUI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="company-name">
+            <span>M</span><span>a</span><span>k</span><span>s</span><span>o</span><span>n</span><span>U</span><span>I</span>
+        </h1>
+    </header>
+
+    <main>
+        <section id="video-section">
+            <h2>Реклама (Пример применения реклам на веб-сайтах)</h2>
+            <div id="video-container">
+                <div class="video-wrapper">
+                    <video id="video1" src="10percent_green.mp4" controls></video>
+                    <p class="video-instruction">Пожалуйста, посмотрите это видео полностью</p>
+                </div>
+                <div class="video-wrapper">
+                    <video id="video2" src="summer_big_sales_off_80_per_cen_text_effect_with_window_wall_background.mp4" controls disabled></video>
+                    <p class="video-instruction">Это видео станет доступно после просмотра первого</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="content" class="hidden">
+            <h2>О рекламе</h2>
+            <div class="content-container">
+                <h3>Как применяется реклама</h3>
+                <p>Реклама - это мощный инструмент маркетинга, который используется для привлечения внимания потенциальных клиентов к продуктам или услугам. Она может быть применена различными способами:</p>
+                <ul>
+                    <li>Телевизионная реклама</li>
+                    <li>Интернет-реклама (баннеры, контекстная реклама)</li>
+                    <li>Наружная реклама (билборды, вывески)</li>
+                    <li>Печатная реклама (газеты, журналы)</li>
+                    <li>Радиореклама</li>
+                </ul>
+            </div>
+            <div class="content-container">
+                <h3>Где применяется реклама</h3>
+                <p>Реклама может быть размещена практически везде, где есть потенциальная аудитория:</p>
+                <ul>
+                    <li>На телевидении и в кинотеатрах</li>
+                    <li>В интернете (социальные сети, поисковые системы, веб-сайты)</li>
+                    <li>На улицах городов</li>
+                    <li>В общественном транспорте</li>
+                    <li>В печатных изданиях</li>
+                    <li>На радиостанциях</li>
+                </ul>
+            </div>
+            <div class="content-container">
+                <h3>Эффективность рекламы</h3>
+                <p>Эффективность рекламы зависит от многих факторов, включая:</p>
+                <ul>
+                    <li>Правильный выбор целевой аудитории</li>
+                    <li>Креативность и качество рекламного сообщения</li>
+                    <li>Выбор подходящих каналов распространения</li>
+                    <li>Частота и продолжительность рекламной кампании</li>
+                    <li>Анализ и оптимизация результатов</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div id="popup-overlay" class="hidden">
+        <div id="popup">
+            <h3>(Возможное место рекламы на веб-сайтах) Презентацию делали:</h3>
+            <ul>
+                <li>Сафонов Максим - делал презентацию.</li>
+                <li>Алексанян Артем - делал дизайн и логотип для презентации.</li>
+                <li>Алексей Рудоискатель - делал сайт для презентации.</li>
+            </ul>
+            <div id="timer">7</div>
+            <button id="ok-button" class="hidden">OK</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Для презентации по обществознанию. </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
